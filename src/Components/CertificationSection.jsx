@@ -1,4 +1,4 @@
-import myData from '../../db.json';
+import myData from '../../db.json'
 
 const CertificationSection=()=>{
     const certifications = myData.certifications 
@@ -9,10 +9,9 @@ const CertificationSection=()=>{
                     <h3 className='font-bold text-lg mb-1'>{certification.name}</h3>
                     <p className=' text-green-500 text-base leading-3 mt-1'>{certification.valid}</p>
                 </div>
-
             ))}
         </div>
     )
 }
 
-export default CertificationSection;
+export default CertificationSection
