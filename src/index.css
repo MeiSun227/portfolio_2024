@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{ 
+    @apply m-0 p-0
+  }
+  body{
+    @apply bg-stone-900 text-white;
+  }
+}
+
+@layer utilities{
+  .box-shadow{
+    box-shadow: 0 0 5px #eb1298,
+    0 0 25px #eb1298,
+    0 0 50px#eb1298,
+    0 0 100px;
+    transition: all ease-in-out 0.3s;
+  }
+  .text-shadow{
+    text-shadow: 0 0 .20em #FFF7,
+    0 0 .20em #eb1298
+  }
+  .box-shadow1{
+  box-shadow:  0 0 .5em #eb1298;
+  transition: all ease-in-out 0.3s;
+  }
+  .text-shadow-nav{
+    text-shadow: 0 0 .50em rgba(241, 70, 147, 0.467),
+    0 0 .30em #eb1298
+  }
+
+
+  .link{
+    @apply text-[#eb1298] tracking-[4px] text-[16px] border-2 border-[#eb1298] px-[22px] m-6
+    py-[7px] rounded-md  text-shadow  box-shadow1 text-center
+  }
+  .link:hover{
+    @apply text-white bg-[#eb1298] box-shadow
+  }
+
+  .link-icon{
+    @apply text-[#eb1298]  border-[#eb1298] rounded-full border-2  text-shadow box-shadow1
+  }
+  .link-icon:hover{
+    @apply text-white bg-[#eb1298] box-shadow 
+  }
+
+  .link-icon-mobile{
+    @apply   text-[#eb1298] tracking-[4px]  border-[#eb1298] rounded-full p-2 border-2
+  }
+
+  .link-icon-mobile:hover{
+    @apply text-white bg-[#eb1298] box-shadow 
+  }
+
+  .img-glow{
+    box-shadow:  0 0 10em #eb1298;
+  }
+  .expanded{
+    backdrop-filter: blur(10px);
+    backdrop-filter:  blur(12px);
+    opacity: 50;
+  }
+
+  .blurred-nav {
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease-in-out;
+    backdrop-filter:  blur(12px);
+}
+.glass{
+  backdrop-filter: blur(10px);
+  box-shadow:  0 0 2em #eb1298;
+  border: 2px #eb1298;
+}
+
+.nav:hover{ 
+  @apply text-white text-shadow-nav
+
+}
+}

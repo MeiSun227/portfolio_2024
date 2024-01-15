@@ -1,0 +1,142 @@
+{
+    "educations": [
+      {
+        "name": " Haaga-Helia University of Applied Sciences",
+        "year": "2019-2023",
+        "degree": " Bachelor- Business Information Technology",
+        "major": "Digital service & Software developement"
+      },
+      {
+        "name": "RenMin University",
+        "year": "2011-2016",
+        "degree": " Bachelor- Public Administration",
+        "major": "Public Administration"
+      }
+    ],
+    "experiences": [
+      {
+        "company": "EasyOrder Oy",
+        "year": "2023-2023",
+        "location": "Helsinki, Finland",
+        "title": "Fullstack Developer Intern",
+        "tech": ["Flutter", "Terraform", "Docker", "Django", "Python"],
+        "description": "I've contributed to continue improve mobile development of a consumer application designed for restaurant use. "
+      },
+      {
+        "company": "NordCloud Oy",
+        "year": "2022-2023",
+        "location": "Helsinki, Finland",
+        "title": "Junior Software Developer",
+        "tech": [
+          "Docker",
+          "Javascript",
+          "AWS cloud",
+          "Azure",
+          "Redux",
+          "Git",
+          "Node",
+          "FinOps",
+          "Jira",
+          "Confluence"
+        ],
+        "description": "In my line of work, I develop and maintain software that meets clients' diverse needs. I have experience with React, Typescript, JavaScript, Redux, and Material UI on the frontend, as well as Node.js, PostgreSQL, MongoDB, GraphQL, JWT, AWS Lambda, Django, and RESTAPI on the backend.In collaboration with cross-functional teams, I help turn conceptual ideas into fully functioning software products that satisfy customers. I keep high-quality code standards, conduct code reviews, and do collaborative programming with team members throughout the development process."
+      },
+      {
+        "company": "Intergrify Oy",
+        "year": "2022-2022",
+        "location": "Helsinki, Finland",
+        "title": "Fullstack Developer Intern",
+        "tech": ["React", "Redux", "MongoDB", "Typescript", "Javascript", "Git"],
+        "description": "The projects I have worked on during my internship include React, Typescript, JavaScript, Redux, Redux-saga, MongoDB, AWS cloud, and Docker, among others. Along with my technical contributions, I encourage a collaborative environment by actively supporting and collaborating with my colleagues. In order to improve project management practices and ensure our collective technical success, I am committed to adopting Agile methods."
+      },
+      {
+        "company": "Aseanic Oy",
+        "year": "2021-2022",
+        "location": "Helsinki, Finland",
+        "title": "Sales Representative",
+        "tech": ["SAP system"],
+        "description": " I worked as a salesperson in the Asian food store warehouse. My main job was to handle customer orders by phone and email. I also kept track of the storages via the SAP system to make sure the records match and there's no duplication"      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect - Associate",
+        "valid": "2023-2025"
+      },
+      {
+        "name": "AWS Certified Cloud Practitioner",
+        "valid": "2022-2023"
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "name": "Weather App",
+        "techInused": ["React", "KoaJS", "Robot Framework", "AWS"],
+        "link": "https://dr6fak363sik7.cloudfront.net",
+        "github": "https://github.com/MeiSun227/weatherapp",
+        "description": "A web application that tracks weather based on users' geolocation. The application launched on AWS with AWS CloudFront, and the backend hosted on AWS Lightsail."
+      },
+      {
+        "id": 2,
+        "name": "3D Sky App",
+        "techInused": ["React", "3D Fiber", "Netifly", "3D Modeling"],
+        "link": "https://mei-sky.netlify.app/",
+        "github": "https://github.com/MeiSun227/my_sky_3D",
+        "description": "A 3D web application that using React fiber to create motion of the 3D models. The application is hosted in Netifly, user can scrolling to move the 3D object."
+      },
+      {
+        "id": 3,
+        "name": "HSL Bike Journey",
+        "techInused": [
+          "React",
+          "Jest",
+          "Typescript",
+          "Material-UI",
+          "Lottie React",
+          "Google Maps API"
+        ],
+        "link": "",
+        "github": "https://github.com/MeiSun227/bikeJourneyFrontend",
+        "description": "Created a web app for tracking weather base on users geolocation.Launched the app on AWS with single page app deployed using AWS Cloudfront and backend running in AWS Lightsail.Project gave good insights in mobile oriented responsive design"
+      },
+      {
+        "id": 4,
+        "name": "HSL Bike Journey API",
+        "techInused": [
+          "ExpressJS",
+          "Typescript",
+          "TypeORM",
+          "Docker",
+          "SuperTest",
+          "PostgraphQL"
+        ],
+        "link": "",
+        "github": "https://github.com/MeiSun227/bikeJourney-api",
+        "description": ""
+      },
+      {
+        "id": 5,
+        "name": "Mini Museum App",
+        "techInused": [
+          "React Native",
+          "Expo",
+          "React Native Elements",
+          "REST API",
+          "React Navigation",
+          "Google Cloud Firestore"
+        ],
+        "link": "",
+        "github": "https://github.com/MeiSun227/mini-museum-app",
+        "description": "An application to act as virtual museum during pandemic time for museum lover to explore the arts of Egypt from Metropolitan Museum of Art Collection. "
+      },
+      {
+        "id": 6,
+        "name": "Uni App",
+        "techInused": ["Figma", "UX research", "UX design", "User testing"],
+        "link": "https://www.behance.net/gallery/111306253/Social-Networking-Application-for-Students",
+        "github": "",
+        "description": "Created a web app for tracking weather base on users geolocation.Launched the app on AWS with single page app deployed using AWS Cloudfront and backend running in AWS Lightsail.Project gave good insights in mobile oriented responsive design"
+      }
+    ]
+  }
+  
