@@ -97,7 +97,7 @@
         ],
         "link": "",
         "github": "https://github.com/MeiSun227/bikeJourneyFrontend",
-        "description": "Created a web app for tracking weather base on users geolocation.Launched the app on AWS with single page app deployed using AWS Cloudfront and backend running in AWS Lightsail.Project gave good insights in mobile oriented responsive design"
+        "description": "I've made a web UI for finding city bike stations, showing details about them, and showing statistics about trips people take with city bikes. As part of the overall user experience, users are able to explore transit routes and discover various stations with an integrated interactive map feature. Comprehensive station information is also offered."
       },
       {
         "id": 4,
@@ -112,7 +112,7 @@
         ],
         "link": "",
         "github": "https://github.com/MeiSun227/bikeJourney-api",
-        "description": ""
+        "description": "In this project, I extracted data efficiently from CSV files, merged it into PostgreSQL, and used TypeORM to build queries to handle a lot of data. I built a scalable RESTful API architecture with various endpoints to support the project's functionalities. A Dockerized deployment system was also implemented to make the project more efficient and easy to manage."
       },
       {
         "id": 5,
@@ -135,7 +135,7 @@
         "techInused": ["Figma", "UX research", "UX design", "User testing"],
         "link": "https://www.behance.net/gallery/111306253/Social-Networking-Application-for-Students",
         "github": "",
-        "description": "Created a web app for tracking weather base on users geolocation.Launched the app on AWS with single page app deployed using AWS Cloudfront and backend running in AWS Lightsail.Project gave good insights in mobile oriented responsive design"
+        "description": "In the project, we designed and prototyped a custom solution for a social app for universities in Finland. I made sure the overall user experience was enhanced by designing and prototyping user interfaces. UX design is my area of expertise, so I'm confident in developing tailored solutions to meet the needs of specific users."
       }
     ]
   }
