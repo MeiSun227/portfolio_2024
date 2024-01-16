@@ -12,11 +12,13 @@ const HeroSection =()=>{
         delaySpeed:320
     })
     return(
-        <div className='mt-20 py-16'>     
+        <div className='mt-20 py-16 overflow-hidden'>     
             <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between md:px-20 md:ml-10 ">
                 <div className="w-2/3 lg:w-1/2 lg:order-1 pr-8"> 
-                    <div className='justify-start pr-4'>               
-                        <h2 className='text-2xl font-semibold mb-8 leading-normal md:text-4xl'>Hello!<span> Looking for</span> <br/><span className='text-green-500'>{typeEffect}</span>?</h2>
+                    <div className='justify-start pr-4'>    
+                        <div className='w-max'>           
+                            <h2 className='text-2xl font-semibold mb-8 leading-normal md:text-4xl'>Hello!<span> Looking for</span> <br/><span className='text-green-500'>{typeEffect}</span>?</h2>
+                        </div>
                         <p className='mb-6 font-body text-left'> My name is Mei. Welcome to my digital space, where stories unfold and connections flourish. I am a Fullstack developer with 3 years experience. </p>
                     </div>
                     <div className='flex items-center justify-center  '>
