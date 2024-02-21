@@ -59,6 +59,14 @@
     @apply text-white bg-[#eb1298] box-shadow 
   }
 
+  .chatBotInput{
+     @apply text-[#eb1298]  border-[#eb1298] rounded-full border-2  box-shadow1
+  }
+
+  .chatBotInput:hover{
+        @apply bg-[#eb1298] box-shadow 
+  }
+
   .img-glow{
     box-shadow:  0 0 10em #eb1298;
   }

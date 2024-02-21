@@ -21,11 +21,9 @@ const ContactSection =()=>{
                     <div className='flex items-center justify-center h-6 w-6 rounded-full m-4 p-4'>
                         <a href="https://github.com/MeiSun227" className='link-icon-mobile'><AiFillGithub className='text-4xl lg:text-[ 36px] '/></a>
                     </div>
-                  
                 </div>
             </div>
         </div>
-
     )
 }
 

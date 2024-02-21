@@ -17,7 +17,8 @@ export default {
         },
         animation: {
             blob: 'blob 7s infinite',
-            bounce: 'bounce 3s infinite'
+            bounce: 'bounce 3s infinite',
+            blink : 'blink 6s ease-in infinite'
         },
         keyframes: {
             blob: {
@@ -42,6 +43,18 @@ export default {
                 '75%': { transform: 'scale(0.95, 1.05)'
                 }
             },
+            blink:{
+                '0%': {height: 0},
+                '90%': {height: 0},
+                '92%': {height: '100%'},
+                '95%': {
+                    height: 0
+                },
+                '97%': {
+                    height: 100},
+                '100%': {
+                    height: 0
+                } }
         },
  
         plugins: [ ('@tailwindcss/aspect-ratio'),],

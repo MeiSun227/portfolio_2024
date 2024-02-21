@@ -17,10 +17,10 @@ const ProjectCard = ({project}) => {
                     {techs}
                 </div>
                 <div className='text-left'>
-                    <p className="font-body leading-7">
+                    <h5 className="font-body leading-7">
                         {project.description}
                         <div className="text-green-800"><a href="#"> Learn more {'>'}</a></div>
-                    </p>     
+                    </h5>     
                 </div>
             </div>
         </div>

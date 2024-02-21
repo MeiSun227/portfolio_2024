@@ -1,4 +1,7 @@
+import { useState } from 'react'
 import AboutSection from '../Components/AboutSection'
+import CatBot from '../Components/Cat/CatBot'
+import ChatBotContainer from '../Components/ChatBot/ChatBotContainer'
 import ContactSection from '../Components/ContactSection'
 import ExperienceSection from '../Components/ExperienceSection'
 import HeroSection from '../Components/HeroSection'
@@ -7,8 +10,13 @@ import TechSection from '../Components/TechSection'
 
 
 const HomeScreen=()=>{
+    const [chatOpen, setChatOpen]= useState(false)
+    const toggleChat= () => {
+        setChatOpen(prevState=> ! prevState)
+    }
+    
     return(
-        <div className="container mx-auto relative">
+        <div className="container mx-auto relative ">
             <div className="absolute top-0 -left-4 w-96 h-72 bg-indigo-500 rounded-full filter blur-xl opacity-20 animate-blob"></div>
             <div className="absolute top-1/2 -right-4 w-72 h-72 bg-yellow-300 rounded-full  filter blur-xl opacity-40 animate-blob animation-delay-2000"></div>
             <div className="absolute bottom-1/3 -1/4 left-0 w-72 h-72 bg-blue-300 rounded-full  filter blur-xl opacity-20 animate-blob animation-delay-1000"/>
@@ -23,7 +31,6 @@ const HomeScreen=()=>{
             </section>
             <section>
                 <TechSection/>
-
             </section>
             <section>
                 <ExperienceSection/>
@@ -33,6 +40,11 @@ const HomeScreen=()=>{
             </section>
             <section>
                 <ContactSection/>
+            </section>
+            <section>
+                <div><CatBot onClick={toggleChat}/>
+                    <ChatBotContainer isVisible={chatOpen} />
+                </div>
             </section>
         </div>
             
