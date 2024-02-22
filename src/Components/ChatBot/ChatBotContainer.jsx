@@ -10,7 +10,7 @@ const ChatBotContainer = ({ isVisible }) => {
     const handleSubmit = async (question) => {
         try {
             setLoading(true)
-            const res = await axios.post('https://chatbot-backend-p7tt.onrender.com/ask', { question })
+            const res = await axios.post(' https://chatbot-backend-eymw.onrender.com/ask', { question })
             setChatSet((prevSet) => [
                 ...prevSet,
                 { question, response: res.data.answer },
