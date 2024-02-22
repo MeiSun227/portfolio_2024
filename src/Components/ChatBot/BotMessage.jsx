@@ -1,5 +1,5 @@
 import { HiEmojiHappy } from 'react-icons/hi'
-import chatIcon from '../../assets/paws.png'
+
 
 const BotMessage = ({ chatSet }) => {
     return (
@@ -21,7 +21,7 @@ const BotMessage = ({ chatSet }) => {
                                 {set.response}
                             </p>
                         </div>
-                        <img src={chatIcon} alt="paws" className="w-8 h-8 rounded-full"></img>
+                        <a className="w-8 h-8 rounded-full bg-gray-600"><p className='text-xs py-2'>Cat</p></a>
                     </div>
                 </div>
             ))}

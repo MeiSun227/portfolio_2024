@@ -5,6 +5,7 @@ import InputBox from './InputBox'
 
 const ChatBotContainer = ({ isVisible }) => {
     const [chatSet, setChatSet] = useState([])
+    
     const handleSubmit = async (question) => {
         try {
             const res = await axios.post('https://chatbot-backend-p7tt.onrender.com/ask', { question })
