@@ -6,11 +6,18 @@ import InputBox from './InputBox'
 const ChatBotContainer = ({ isVisible }) => {
     const [chatSet, setChatSet] = useState([])
     const [loading, setLoading] = useState(true)
+    const [statusText, setStatusText] = useState('')
 
     const handleSubmit = async (question) => {
         try {
             setLoading(true)
-            const res = await axios.post(' https://chatbot-backend-eymw.onrender.com/ask', { question })
+            setStatusText('Loading...')
+            
+            const timeout = setTimeout(() => {
+                setStatusText ('Cat still sleeping and be patient')
+            }, 5000) 
+            const res = await axios.post('https://chatbot-backend-eymw.onrender.com/ask', { question })
+            clearTimeout(timeout)
             setChatSet((prevSet) => [
                 ...prevSet,
                 { question, response: res.data.answer },
@@ -28,12 +35,9 @@ const ChatBotContainer = ({ isVisible }) => {
         <div  className={`fixed bottom-0 right-56 mr-4 mb-4 bg-slate-400/70  px-2 py-2 rounded-lg ${isVisible ? 'block' : 'hidden'}`}>
             <div>
                 <BotMessage chatSet={chatSet} />
-                {loading && <div >Loading...</div>} 
+                {loading && <div><p className='text-s'>{statusText}</p></div>} 
                 <InputBox onSubmit={handleSubmit} />
-             
             </div>
-     
-     
         </div>
     )
 }
