@@ -14,7 +14,7 @@ const ChatBotContainer = ({ isVisible }) => {
             setStatusText('Loading...')
             
             const timeout = setTimeout(() => {
-                setStatusText ('Cat still sleeping and be patient')
+                setStatusText ('Cat is still resting and need few second more to awake')
             }, 5000) 
             const res = await axios.post('https://chatbot-backend-eymw.onrender.com/ask', { question })
             clearTimeout(timeout)
