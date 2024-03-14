@@ -32,7 +32,6 @@ const HeroSection =()=>{
                             </div>
                         </div>
                     </div>
-                  
                 </div>
                 <div className="w-full lg:w-1/2 lg:order-2 mb-8 lg:mb-0 lg:mr-10">
                     <img src={img} alt="girl" className='object-cover w-full h-full rounded-full img-glow  bg-indigo-400 lg:w-96'  />       
